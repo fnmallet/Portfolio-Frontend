@@ -1,0 +1,40 @@
+.logo {
+    width: 28px;
+}
+
+.logo:hover {
+    filter: invert(88%) sepia(27%) saturate(5352%) hue-rotate(353deg) brightness(102%) contrast(102%);
+}
+
+.button {
+    width: 28px;
+}
+
+.button:hover {
+    filter: invert(88%) sepia(27%) saturate(5352%) hue-rotate(353deg) brightness(102%) contrast(102%);
+}
+
+.image {
+    width: 256px;
+}
+
+.image-large {
+    width: 512px;
+}
+
+.about {
+    background-image: url("../assets/images/photos/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Bootstrap Classes */
+
+.btn {
+    --bs-btn-border-color: none;
+}
+
+.btn-outline-warning {
+    --bs-btn-border-color: #ffc107;
+}

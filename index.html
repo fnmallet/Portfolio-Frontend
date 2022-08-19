@@ -10,96 +10,173 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
-    <header>
-        <div>
-            <img src="" alt="">
-            <span>Argentina Programa</span>
+<body class="container-fluid">
+    <header class="row bg-light px-5 py-2 fixed-top">
+        <div class="col">
+            <img src="assets/images/logos/logo-argentina-programa.png" alt="Argentina Programa">
         </div>
-        <div>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <button>Iniciar sesión</button>
+        <div class="col d-flex justify-content-end py-4 align-items-center gap-3">
+            <a href="https://www.linkedin.com/in/fernando-mallet/"><img class="logo" src="assets/images/logos/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/fnmallet?tab=repositories"><img class="logo" src="assets/images/logos/github.svg" alt="Github"></a>
+            <button class="btn btn-outline-warning">Iniciar sesión</button>
         </div>
     </header>
-    <main>
-        <section>
-            <img src="" alt="">
-            <h1></h1>
-            <p></p>
-        </section>
-        <section>
-            <h2>Experiencia</h2>
-            <button><img src="" alt=""></button>
-            <article>
-                <img src="" alt="">
-                <div>
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div>
-                    <button><img src="" alt=""></button>
-                    <button><img src="" alt=""></button>
-                </div>
-            </article>
-        </section>
-        <section>
-            <h2>Formación Académica</h2>
-            <button><img src="" alt=""></button>
-            <article>
-                <img src="" alt="">
-                <div>
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div>
-                    <button><img src="" alt=""></button>
-                    <button><img src="" alt=""></button>
-                </div>
-            </article>
-        </section>
-        <section>
-            <h2>Cursos</h2>
-            <button><img src="" alt=""></button>
-            <article>
-                <img src="" alt="">
-                <div>
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div>
-                    <button><img src="" alt=""></button>
-                    <button><img src="" alt=""></button>
-                </div>
-            </article>
-        </section>
-        <section>
-            <h2>Habilidades</h2>
-            <button><img src="" alt=""></button>
-            <article>
-                <h3></h3>
-                <span></span>
-                <button><img src="" alt=""></button>
-                <button><img src="" alt=""></button>
-            </article>
-        </section>
-        <section>
-            <h2>Proyectos</h2>
-            <button><img src="" alt=""></button>
-            <img src="" alt="">
-            <div>
-                <div>
-                    <h3></h3>
-                    <button><img src="" alt=""></button>
-                    <button><img src="" alt=""></button>
-                </div>
-                <p></p>
+    <main class="d-flex flex-column gap-5">
+        <section class="vh-100 row justify-content-center align-items-center about gap-5">
+            <div class="col-3">
+                <img class="img-fluid rounded-circle" src="assets/images/photos/perfil.png" alt="">
+            </div>
+            <div class="col-3 text-white">
+                <h1>Fernando Mallet</h1>
+                <p>Bienvenido a mi portfolio. Soy estudiante de ingeniería informática y realicé distintos cursos de desarrollo web. En esta página presento los detalles de mi formación y mis proyectos.</p>
             </div>
         </section>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Experiencia</h2>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                </div>
+            </div>
+            <article class="d-flex gap-4 pt-4">
+                <img class="img-fluid image" src="assets/images/photos/default.jpg" alt="">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <div>
+                        <h3>Primer trabajo</h3>
+                        <p>Descripción del primer trabajo</p>
+                    </div>
+                    <div>
+                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div class="container">
+            <hr>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Formación Académica</h2>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                </div>
+            </div>
+            <article class="d-flex gap-4 pt-4">
+                <img class="img-fluid image" src="assets/images/photos/default.jpg" alt="">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <div>
+                        <h3>Ingeniería Informática</h3>
+                        <p>2022 - En curso</p>
+                    </div>
+                    <div>
+                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div class="container">
+            <hr>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Cursos</h2>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                </div>
+            </div>
+            <article class="d-flex gap-4 pt-4">
+                <img class="img-fluid image" src="assets/images/photos/default.jpg" alt="">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <div>
+                        <h3>Desarrollo Web</h3>
+                        <p>2022 - En curso</p>
+                    </div>
+                    <div>
+                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <div class="container">
+            <hr>
+        </div>
+        <section class="container">
+            <h2>Habilidades</h2>
+            <article class="d-flex align-items-center gap-4 pt-4">
+                <h3>Inglés</h3>
+                <div class="progress flex-grow-1">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div>
+                    <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                    <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                </div>
+            </article>
+        </section>
+        <div class="container">
+            <hr>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Proyectos</h2>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                </div>
+            </div>
+            <article class="d-flex gap-4 pt-4">
+                <img class="img-fluid image-large" src="assets/images/photos/default.jpg" alt="">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <div>
+                        <h3>Portfolio</h3>
+                        <p>2022 - En curso</p>
+                    </div>
+                    <div>
+                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    </div>
+                </div>
+            </article>
+            <article class="d-flex gap-4 pt-4 flex-row-reverse">
+                <img class="img-fluid image-large" src="assets/images/photos/default.jpg" alt="">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <div>
+                        <h3>Portfolio</h3>
+                        <p>2022 - En curso</p>
+                    </div>
+                    <div>
+                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    </div>
+                </div>
+            </article>
+            <article class="d-flex gap-4 pt-4">
+                <img class="img-fluid image-large" src="assets/images/photos/default.jpg" alt="">
+                <div class="d-flex flex-grow-1 justify-content-between">
+                    <div>
+                        <h3>Portfolio</h3>
+                        <p>2022 - En curso</p>
+                    </div>
+                    <div>
+                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
-    <footer>
-        <span>Desarrollado por Fernando Mallet</span>
+    <footer class="container-fluid text-center py-5 my-5 bg-light">
+        <span class="text-warning fs-5">Desarrollado por Fernando Mallet</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
