@@ -1,17 +1,48 @@
-.logo {
+:root {
+    --filter-orange: invert(88%) sepia(27%) saturate(5352%) hue-rotate(353deg) brightness(102%) contrast(102%);
+    --filter-green: invert(34%) sepia(80%) saturate(5580%) hue-rotate(146deg) brightness(91%) contrast(80%);
+    --filter-white: invert(98%) sepia(2%) saturate(7%) hue-rotate(54deg) brightness(103%) contrast(103%);
+    --color-green: #198754;
+    --color-orange: #ffc107;
+    --color-black: black;
+    --color-white: white;
+}
+
+.text-white-const {
+    color: var(--color-white);
+}
+
+.icon-dark,
+.icon-light {
     width: 28px;
 }
 
-.logo:hover {
-    filter: invert(88%) sepia(27%) saturate(5352%) hue-rotate(353deg) brightness(102%) contrast(102%);
+.icon-dark {
+    filter: var(--filter-white);
 }
 
-.button {
+.icon-dark:hover {
+    filter: var(--filter-green);
+}
+
+.icon-light:hover {
+    filter: var(--filter-orange);
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
+
+button img {
     width: 28px;
 }
 
-.button:hover {
-    filter: invert(88%) sepia(27%) saturate(5352%) hue-rotate(353deg) brightness(102%) contrast(102%);
+.icon-lighthover {
+    filter: var(--filter-green);
+}
+
+.icon-light:hover {
+    filter: var(--filter-orange);
 }
 
 .image {
@@ -28,6 +59,18 @@
     background-size: cover;
 }
 
+.footer {
+    height: 30vh;
+}
+
+.vr-dark {
+    background-color: var(--color-white);
+}
+
+.vr-light {
+    background-color: var(--color-black);
+}
+
 
 /* Bootstrap Classes */
 
@@ -36,5 +79,9 @@
 }
 
 .btn-outline-warning {
-    --bs-btn-border-color: #ffc107;
+    --bs-btn-border-color: var(--color-orange);
+}
+
+.btn-outline-success {
+    --bs-btn-border-color: var(--color-green);
 }

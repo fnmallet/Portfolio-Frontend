@@ -7,26 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="container-fluid">
+<body class="bg-white">
     <header class="row bg-light px-5 py-2 fixed-top">
         <div class="col">
-            <img src="assets/images/logos/logo-argentina-programa.png" alt="Argentina Programa">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"><img id="logoArgPrograma" src="assets/images/logos/logo-argentina-programa.png" alt="Argentina Programa"></a>
         </div>
         <div class="col d-flex justify-content-end py-4 align-items-center gap-3">
-            <a href="https://www.linkedin.com/in/fernando-mallet/"><img class="logo" src="assets/images/logos/linkedin.svg" alt="LinkedIn"></a>
-            <a href="https://github.com/fnmallet?tab=repositories"><img class="logo" src="assets/images/logos/github.svg" alt="Github"></a>
+            <button id="themeButton" class="btn p-0"><img id="buttonThemeImg" class="icon-light" src="assets/images/icons/brightness-high.svg" alt=""></button>
+            <div class="d-flex h-75 vr-light">
+                <div class="vr"></div>
+            </div>
+            <a href="https://www.linkedin.com/in/fernando-mallet/"><img class="icon-light" src="assets/images/logos/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/fnmallet?tab=repositories"><img class="icon-light" src="assets/images/logos/github.svg" alt="Github"></a>
             <button class="btn btn-outline-warning">Iniciar sesión</button>
         </div>
     </header>
-    <main class="d-flex flex-column gap-5">
+    <main class="d-flex flex-column gap-5 bg-white text-black">
         <section class="vh-100 row justify-content-center align-items-center about gap-5">
             <div class="col-3">
                 <img class="img-fluid rounded-circle" src="assets/images/photos/perfil.png" alt="">
             </div>
-            <div class="col-3 text-white">
+            <div class="col-3 text-white-const">
                 <h1>Fernando Mallet</h1>
                 <p>Bienvenido a mi portfolio. Soy estudiante de ingeniería informática y realicé distintos cursos de desarrollo web. En esta página presento los detalles de mi formación y mis proyectos.</p>
             </div>
@@ -37,7 +41,7 @@
                     <h2>Experiencia</h2>
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                    <button class="btn"><img class="icon-light" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
                 </div>
             </div>
             <article class="d-flex gap-4 pt-4">
@@ -48,8 +52,8 @@
                         <p>Descripción del primer trabajo</p>
                     </div>
                     <div>
-                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                     </div>
                 </div>
             </article>
@@ -63,7 +67,7 @@
                     <h2>Formación Académica</h2>
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                    <button class="btn"><img class="icon-light" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
                 </div>
             </div>
             <article class="d-flex gap-4 pt-4">
@@ -74,8 +78,8 @@
                         <p>2022 - En curso</p>
                     </div>
                     <div>
-                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                     </div>
                 </div>
             </article>
@@ -89,7 +93,7 @@
                     <h2>Cursos</h2>
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                    <button class="btn"><img class="icon-light" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
                 </div>
             </div>
             <article class="d-flex gap-4 pt-4">
@@ -100,8 +104,8 @@
                         <p>2022 - En curso</p>
                     </div>
                     <div>
-                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                     </div>
                 </div>
             </article>
@@ -117,8 +121,8 @@
                     <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <div>
-                    <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                    <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                    <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                    <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                 </div>
             </article>
         </section>
@@ -131,7 +135,7 @@
                     <h2>Proyectos</h2>
                 </div>
                 <div class="col d-flex justify-content-end">
-                    <button class="btn"><img class="button" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
+                    <button class="btn"><img class="icon-light" src="assets/images/icons/plus-square.svg" alt="Agregar experiencia"></button>
                 </div>
             </div>
             <article class="d-flex gap-4 pt-4">
@@ -142,8 +146,8 @@
                         <p>2022 - En curso</p>
                     </div>
                     <div>
-                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                     </div>
                 </div>
             </article>
@@ -155,8 +159,8 @@
                         <p>2022 - En curso</p>
                     </div>
                     <div>
-                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                     </div>
                 </div>
             </article>
@@ -168,17 +172,18 @@
                         <p>2022 - En curso</p>
                     </div>
                     <div>
-                        <button class="btn"><img class="button" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
-                        <button class="btn"><img class="button" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/pencil-square.svg" alt="Editar experiencia"></button>
+                        <button class="btn"><img class="icon-light" src="assets/images/icons/x-square.svg" alt="Eliminar experiencia"></button>
                     </div>
                 </div>
             </article>
         </section>
     </main>
-    <footer class="container-fluid text-center py-5 my-5 bg-light">
+    <footer class="footer d-flex align-items-center justify-content-center mt-5 bg-light">
         <span class="text-warning fs-5">Desarrollado por Fernando Mallet</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
